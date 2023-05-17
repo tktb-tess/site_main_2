@@ -1,0 +1,33 @@
+body {
+	background: #0e0019;
+	color: #ffffff;
+	font-family: 'Arial', 'Helvatica Neue', 'BIZ UDPGothic', 'YuGothic', sans-serif;
+	font-size: 20px;
+	margin: 10px 100px;
+}
+p {
+	line-height: 1.5em;
+	margin: 20px 20px;
+}
+.srf {
+	font-family: 'Times New Roman', 'BIZ UDPMincho', 'YuMincho', serif;
+}
+li {
+	margin: 10px 0;
+}
+h1.header {
+	text-align: center;
+	padding-bottom: 5px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #ffffff;
+}
+.centre {
+	text-align: center;
+}
+a:link {
+	color: #00ff00;
+ }
+a:visited {
+	color: #ff00ff;
+ }
