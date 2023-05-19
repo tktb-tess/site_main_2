@@ -6,13 +6,12 @@ body {
 	margin: 10px 80px;
 }
 
-.imgg {
+.img_f {
 	text-align: center;
-	height: 300px;
 }
 img {
-	width: auto;
-	height: 100%;
+	width: 75%;
+	height: auto;
 }
 p {
 	line-height: 1.5em;
