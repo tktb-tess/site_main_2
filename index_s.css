@@ -7,9 +7,11 @@ body {
 	font-family: 'Arial', 'Helvetica Neue', 'Noto Sans JP', sans-serif;
 	font-size: 0.8rem;
 }
+
 h3 {
 	font-size: 1.5rem;
 }
+
 header > .page-title {
 	font-family: 'Chokokutai';
 	font-weight: 400;
@@ -33,9 +35,9 @@ header > .page-title {
 a:link, a:visited {
 	color: #ff75b5;
 }
+
 a:hover, a:hover:visited {
 	color: #9e3c6a;
 }
-img.img-fluid {
-	width: 70%;
-}
+
+
