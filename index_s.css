@@ -1,41 +1,41 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chokokutai&family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&display=swap');
+
 body {
 	background-color: #0e0019;
 	color: #ffffff;
-	font-family: 'Arial', 'Helvatica Neue', 'BIZ UDPGothic', 'YuGothic', sans-serif;
-	font-size: 20px;
-	margin: 10px 80px;
+	font-family: 'Arial', 'Helvetica Neue', 'Noto Sans JP', sans-serif;
+	font-size: 0.8rem;
+}
+h3 {
+	font-size: 1.5rem;
+}
+header > .page-title {
+	font-family: 'Chokokutai';
+	font-weight: 400;
+	font-size: 7vw;
+	color: #b6e8ff;
+	
 }
 
-.img_f {
-	text-align: center;
+.title-bg {
+	background-image: url(./img/brnheader2.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 50%;
+	padding: 12vh 0;
 }
-img {
-	width: 75%;
-	height: auto;
-}
-p {
-	line-height: 1.5em;
-	margin: 20px 20px;
-}
+
 .srf {
-	font-family: 'Times New Roman', 'BIZ UDPMincho', 'YuMincho', serif;
+	font-family: 'Times New Roman', 'Noto Serif JP', serif;
 }
-li {
-	margin: 10px 0;
-}
-h1.header {
-	text-align: center;
-	padding-bottom: 5px;
-	border-bottom-style: solid;
-	border-bottom-width: 2px;
-	border-bottom-color: #ffffff;
-}
-.centre {
-	text-align: center;
-}
-a:link {
+
+a:link, a:visited {
 	color: #00ff00;
- }
-a:visited {
-	color: #ff00ff;
- }
+}
+a:hover, a:hover:visited {
+	color: #00aa00;
+}
+img.img-fluid {
+	width: 70%;
+}
