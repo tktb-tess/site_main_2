@@ -31,10 +31,10 @@ header > .page-title {
 }
 
 a:link, a:visited {
-	color: #00ff00;
+	color: #ff75b5;
 }
 a:hover, a:hover:visited {
-	color: #00aa00;
+	color: #9e3c6a;
 }
 img.img-fluid {
 	width: 70%;
