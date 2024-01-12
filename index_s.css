@@ -12,20 +12,12 @@ h3 {
 	font-size: 1.5rem;
 }
 
-header > .page-title {
+.container-fluid > .row > .col > header > h1.page-title {
 	font-family: 'Chokokutai';
 	font-weight: 400;
-	font-size: 7vw;
+	font-size: calc(1.5rem + 4vw);
 	color: #b6e8ff;
 	
-}
-
-.title-bg {
-	background-image: url(./img/brnheader2.jpeg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 0 50%;
-	padding: 12vh 0;
 }
 
 .srf {
