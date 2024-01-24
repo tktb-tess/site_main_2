@@ -12,7 +12,7 @@
 	<title>Homepage</title>
 	<style>
 		/* Import Google Fonts */
-		@import url('https://fonts.googleapis.com/css2?family=Chokokutai&family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Chokokutai&family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&family=UnifrakturMaguntia&family=Zen+Antique&display=swap');
 
 		body {
 			background-color: #0e0019;
@@ -21,11 +21,7 @@
 			font-size: 1rem;
 		}
 
-		h3 {
-			font-size: 1.5rem;
-		}
-
-		.container-fluid > .row > .col > header > h1.page-title {
+		.page-title {
 			font-family: 'Chokokutai';
 			font-weight: 400;
 			font-size: calc(1.5rem + 4vw);
@@ -37,9 +33,22 @@
 			font-family: 'Times New Roman', 'Noto Serif JP', serif;
 		}
 
-		.card-title,
-		.card-text {
-			color: black;
+		.frktr {
+			font-family: 'UnifrakturMaguntia', serif;
+		}
+
+		.icoon {
+			font-size: 2.7rem;
+			border-top: solid;
+			border-bottom: solid;
+			border-color: white;
+			border-width: thin;
+		}
+
+		
+		
+		.card {
+			height: 12rem;
 		}
 	</style>
 </head>
@@ -48,27 +57,67 @@
 		<div class="row">
 			<div class="col">
 				<header>
-					<h1 class="text-center page-title my-4">ぼるんちゅ&emsp;の&emsp;へや</h1>
+					<h1 class="text-center page-title my-4">ボルンチュ ノ ヘヤ</h1>
 				</header>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col">
 				<main>
-					<p class="ms-3">ぼるんちゅこと、<ruby>Hart Bornbohrer<rt>ハルト ボルンボーレル</rt></ruby>の部屋です。</p>
-					<h3 class="ms-4 srf">Links</h3>
-					<div class="d-flex justify-content-evenly">
-						<div class="card">
-							<div class="card-body" style="width: 14rem">
-							  <h5 class="card-title">Soundcloud</h5>
-							  <p class="card-text">作った曲を上げる場所です。会社の動きが不穏で不安です。</p>
-							  <a href="https://soundcloud.com/bornbohrer" class="btn btn-primary">Link</a>
+					<p class="text-center">ぼるんちゅこと、<ruby>Hart Bornbohrer<rt>ハルト ボルンボーレル</rt></ruby>の部屋です。</p>
+					<hr>
+					<div class="d-flex justify-content-center">
+						<h1 class="text-center srf icoon px-2 py-0">Links</h1>
+					</div>
+					<div class="container-fluid">
+						<div class="row row-cols-4">
+							<div class="col">
+								<div class="card bg-transparent border-light mb-2">
+									<div class="card-body">
+									  <h5 class="card-title">Soundcloud</h5>
+									  <p class="card-text">作った曲を上げる場所です。<br>会社の動きが不穏で不安です。</p>
+									  
+									  <a href="https://soundcloud.com/bornbohrer" target="_blank" rel="noopener" class="btn btn-transparent border-light">Lass uns gehen</a>
+									</div>
+								</div>
 							</div>
-						  </div>
-						<a href="https://soundcloud.com/bornbohrer" target="_blank" rel="noopener" role="button" class="btn btn-primary">Soundcloud</a>					
-						<a href="https://www.youtube.com/@borntschu1053/featured" target="_blank" rel="noopener" role="button" class="btn btn-primary">Youtube</a>
-						<a href="https://twitter.com/hart_bornbohrer"  target="_blank" rel="noopener" role="button" class="btn btn-primary">Twitter</a>
-						<a href="https://bornbohrer.hatenablog.com/" target="_blank" rel="noopener" role="button" class="btn btn-primary">はてなブログ</a>
+							<div class="col">
+								<div class="card bg-transparent border-light mb-2">
+									<div class="card-body">
+									  <h5 class="card-title">Youtube</h5>
+									  <p class="card-text">作った動画を上げる場所です。<br>ぼちぼち曲に動画をつけてupしていきたいと思います。</p>
+									  <a href="https://www.youtube.com/@borntschu1053/featured" target="_blank" rel="noopener" class="btn btn-transparent border-light">Lass uns gehen</a>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card bg-transparent border-light mb-2">
+									<div class="card-body">
+									  <h5 class="card-title">&#x1d54f;(twitter)</h5>
+									  <p class="card-text">twitterです。静かめ。</p>
+									  <a href="https://twitter.com/hart_bornbohrer" target="_blank" rel="noopener" class="btn btn-transparent border-light">Lass uns gehen</a>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card bg-transparent border-light mb-2">
+									<div class="card-body">
+									  <h5 class="card-title">はてなブログ「井の中の膾」</h5>
+									  <p class="card-text">音楽のこととかアドカレの記事とか。</p>
+									  <a href="https://bornbohrer.hatenablog.com/" target="_blank" rel="noopener" class="btn btn-transparent border-light">Lass uns gehen</a>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="card bg-transparent border-light mb-2">
+									<div class="card-body">
+									  <h5 class="card-title">Misskey</h5>
+									  <p class="card-text">一応あります。静かめ。</p>
+									  <a href="https://misskey.io/@bornbohrer_hart" target="_blank" rel="noopener" class="btn btn-transparent border-light">Lass uns gehen</a>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</main>
 			</div>
