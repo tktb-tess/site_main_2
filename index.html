@@ -16,7 +16,7 @@
 
 		body {
 			background-color: #0e0019;
-			color: white;
+			color: #f8f9fa;
 			font-family: 'Noto Sans JP', sans-serif;
 			font-size: 1rem;
 		}
@@ -25,7 +25,7 @@
 			font-family: 'Chokokutai';
 			font-weight: 400;
 			font-size: calc(1.5rem + 4vw);
-			color: #b6e8ff;
+			color: #cd8fff;
 			
 		}
 
@@ -41,19 +41,29 @@
 			font-size: 2.8rem;
 			border-top: dotted;
 			border-bottom: dotted;
-			border-color: white;
+			border-color: #f8f9fa;
 			border-width: thin;
 			padding-left: 3.5rem;
 			padding-right: 3.5rem;
 		}
 
 		.text-theme,
-		.text-theme:hover {
+		.btn-text-theme {
 			color: #0e0019;
 		}
+		
+		.btn-text-theme:hover {
+			color: #f8f9fa;
+		 }
 
 		.card {
 			height: calc(13rem + 2.8vw);
+		}
+
+		.page-top-btn {
+			position: fixed;
+			right: 25px;
+			bottom: 25px;
 		}
 	</style>
 </head>
@@ -81,7 +91,7 @@
 									<div class="card-body">
 									  <h5 class="card-title srf text-center">Soundcloud</h5>
 									  <p class="card-text">作った曲を上げる場所です。<br>会社の動きが不穏で不安です。</p>
-									  <a href="https://soundcloud.com/bornbohrer" target="_blank" rel="noopener" class="btn btn-light text-theme">Lass uns gehen</a>
+									  <a href="https://soundcloud.com/bornbohrer" target="_blank" rel="noopener" class="btn btn-outline-dark btn-text-theme">Lass uns gehen</a>
 									</div>
 								</div>
 							</div>
@@ -90,7 +100,7 @@
 									<div class="card-body">
 									  <h5 class="card-title srf text-center">Youtube</h5>
 									  <p class="card-text">作った動画を上げる場所です。<br>ぼちぼち曲に動画をつけてupしていきたいと思います。</p>
-									  <a href="https://www.youtube.com/@borntschu1053/featured" target="_blank" rel="noopener" class="btn btn-light text-theme">Lass uns gehen</a>
+									  <a href="https://www.youtube.com/@borntschu1053/featured" target="_blank" rel="noopener" class="btn btn-outline-dark btn-text-theme">Lass uns gehen</a>
 									</div>
 								</div>
 							</div>
@@ -99,7 +109,7 @@
 									<div class="card-body">
 									  <h5 class="card-title srf text-center">&#x1d54f; (twitter)</h5>
 									  <p class="card-text">twitterです。静かめ。</p>
-									  <a href="https://twitter.com/hart_bornbohrer" target="_blank" rel="noopener" class="btn btn-light text-theme">Lass uns gehen</a>
+									  <a href="https://twitter.com/hart_bornbohrer" target="_blank" rel="noopener" class="btn btn-outline-dark btn-text-theme">Lass uns gehen</a>
 									</div>
 								</div>
 							</div>
@@ -108,7 +118,7 @@
 									<div class="card-body">
 									  <h5 class="card-title srf text-center">はてなブログ<br>「井の中の膾」</h5>
 									  <p class="card-text">音楽のこととかアドカレの記事とか。</p>
-									  <a href="https://bornbohrer.hatenablog.com/" target="_blank" rel="noopener" class="btn btn-light text-theme">Lass uns gehen</a>
+									  <a href="https://bornbohrer.hatenablog.com/" target="_blank" rel="noopener" class="btn btn-outline-dark btn-text-theme">Lass uns gehen</a>
 									</div>
 								</div>
 							</div>
@@ -117,7 +127,7 @@
 									<div class="card-body">
 									  <h5 class="card-title srf text-center">Misskey</h5>
 									  <p class="card-text">一応あります。静かめ。</p>
-									  <a href="https://misskey.io/@bornbohrer_hart" target="_blank" rel="noopener" class="btn btn-light text-theme">Lass uns gehen</a>
+									  <a href="https://misskey.io/@bornbohrer_hart" target="_blank" rel="noopener" class="btn btn-outline-dark btn-text-theme">Lass uns gehen</a>
 									</div>
 								</div>
 							</div>
@@ -127,7 +137,14 @@
 			</div>
 		</div>
 	</div>
-
+	<div class="page-top-btn">
+		
+		<a href="#" class="btn btn-outline-light">
+			<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+				<path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+			</svg>
+		</a>
+	</div>
 
 	<!-- Import Bootstrap JS Bundle -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
