@@ -1,0 +1,73 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chokokutai&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=UnifrakturMaguntia&display=swap');
+
+:root {
+    --my-color-deep-pur-rgb: 14, 0, 25;
+}
+
+body {
+    background-color: rgb(var(--my-color-deep-pur-rgb));
+    color: var(--bs-light);
+    font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+    font-size: 1rem;
+}
+
+.page-title {
+    font-family: 'Chokokutai';
+    font-weight: 400;
+    font-size: calc(1.5rem + 4vw);
+    color: #cd8fff;
+    
+}
+
+.srf {
+    font-family: 'Noto Serif', 'Noto Serif JP', serif;
+}
+
+.frktr {
+    font-family: 'UnifrakturMaguntia';
+}
+
+.icoon {
+    font-size: 2.8rem;
+    border-top: dotted;
+    border-bottom: dotted;
+    border-color: var(--bs-light);
+    border-width: thin;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+
+.text-theme {
+    color: rgb(var(--my-color-deep-pur-rgb));
+}
+
+.btn-text-theme {
+    background-color: rgba(var(--my-color-deep-pur-rgb), 0);
+    color: rgb(var(--my-color-deep-pur-rgb));
+    border: solid;
+    border-width: thin;
+    border-color: rgb(var(--my-color-deep-pur-rgb));
+}
+
+.btn-text-theme:hover {
+    background-color: rgb(var(--my-color-deep-pur-rgb));
+    color: var(--bs-light);
+}
+
+.card {
+    height: calc(13rem + 2.8vw);
+}
+
+.page-top-btn {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+
+.bi-chevron-up {
+    display: inline;
+    height: 1.35rem;
+    vertical-align: text-bottom;
+    fill: currentColor;
+}
