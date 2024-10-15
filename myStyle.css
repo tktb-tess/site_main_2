@@ -3,13 +3,17 @@
 
 :root {
     --my-color-deep-pur-rgb: 14, 0, 25;
-    --mycolor-bluely-white: #dce8f5;
+    --mycolor-bluely-white: #6681a0;
+}
+
+html {
+    font-size: 1em;
 }
 
 body {
-    background-color: var(--mycolor-bluely-white);
+    background: linear-gradient(to bottom left, var(--bs-light), var(--mycolor-bluely-white));
+    background-attachment: fixed;
     font-family: 'Inter', 'Arial', 'Noto Sans', 'Noto Sans JP', sans-serif;
-    font-size: 1rem;
 }
 
 .page-title {
@@ -31,10 +35,9 @@ body {
     font-size: 2.8rem;
     border-top: dotted;
     border-bottom: dotted;
-    border-color: var(--mycolor-bluely-white);
-    border-width: thin;
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
+    border-width: 2px;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .card {
